@@ -1,0 +1,31 @@
+{
+  "name": "seneca-logstash-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "precommit": "test",
+  "scripts": {
+    "test": "lab -v -P test -L -t 95 $LAB_FLAGS",
+    "test:node6": "LAB_FLAGS='--leaks' && npm t",
+    "coveralls": "lab -s -P test -r lcov | coveralls",
+    "coverage": "lab -v -P test -L -t 95 -r html > coverage.html",
+    "annotate": "docco seneca.js logstash.js -o docs/annotated"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "logstash-client": "1.1.0"
+  },
+  "engines": {
+    "node": ">=4.x"
+  },
+  "devDependencies": {
+    "code": "3.0.2",
+    "eslint-config-seneca": "3.0.0",
+    "eslint-plugin-hapi": "4.0.0",
+    "eslint-plugin-standard": "2.0.0",
+    "lab": "10.9.0",
+    "mock-require": "1.3.0",
+    "precommit": "1.2.2"
+  }
+}
