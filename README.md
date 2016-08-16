@@ -49,7 +49,7 @@ If you need to spin up a new instance of logstash for testing purposes, the foll
 command matches the configuration from the example above:
 
 ```
-docker run -it --rm -p 7132:7132 logstash logstash -e 'input { dcp { port => 7132} } output { stdout { } }'
+docker run -it --rm -p 7132:7132 logstash logstash -e 'input { udp { port => 7132} } output { stdout { } }'
 ```
 Please note that if you are using docker-machine or any other virtualization
 technology to run Docker you will need to replace `localhost` by the IP of the `docker-machine` (just run `docker-machine ip` in the console).
