@@ -34,7 +34,7 @@ seneca.use(require('seneca-logstash-logger'))
 ```
 
 And that's all! From now on, all the Seneca log output will be sent to the Logstash
-instance specified in the `host` property of the configuration.
+instance specified by the `host` property of the configuration.
 
 ## Configuration
 
