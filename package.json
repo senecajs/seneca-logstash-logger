@@ -2,7 +2,7 @@
   "name": "seneca-logstash-logger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "logstash.js",
   "precommit": "test",
   "scripts": {
     "test": "lab -v -P test -L -t 95 $LAB_FLAGS",
