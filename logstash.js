@@ -19,15 +19,4 @@ Logger.preload = function () {
   }
 }
 
-var Seneca = require('seneca')
-
-var logstash = {
-		host: 'localhost',
-		port: 7132,
-		type: 'udp'
-}
-
-var seneca = Seneca({legacy: {logging: false}, 'logstash-logger': logstash})
-seneca.use(require('seneca-logstash-logger'))
-
 module.exports = Logger
