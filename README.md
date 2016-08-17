@@ -1,7 +1,7 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
 > A [Seneca.js](https://www.npmjs.com/package/seneca) logger for Logstash
 
-# logstash-seneca-logger
+# seneca-logstash-logger
 
 [![npm version][npm-badge]][npm-url]
 [![Build Status][travis-badge]][travis-url]
