@@ -26,6 +26,7 @@
     "eslint-plugin-standard": "2.0.0",
     "lab": "10.9.0",
     "mock-require": "1.3.0",
-    "precommit": "1.2.2"
+    "precommit": "1.2.2",
+    "seneca": "git@github.com:senecajs/seneca.git#908dadf6454c0792c64a6b3164e672456b5e1388"
   }
 }
