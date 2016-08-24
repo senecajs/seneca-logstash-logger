@@ -29,8 +29,15 @@ lab.test('configuration is passed to logstash-client', function (done) {
     }
   }
 
-  Mock('logstash-client', mockedLogstashClient)
-  Mock.reRequire('../logstash')
 
-  Seneca(senecaConfig).use(require('../logstash'))
+  var si = Seneca(senecaConfig)
+  if (si.version >= '3.0.0') {
+    Mock('logstash-client', mockedLogstashClient)
+    Mock.reRequire('../logstash')
+
+    si.use(require('../logstash'))
+  }
+  else {
+    done()
+  }
 })
