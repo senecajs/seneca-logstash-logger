@@ -28,6 +28,11 @@
     "pre-commit": "1.1.x",
     "seneca": "plugin"
   },
+  "files": [
+    "logstash.js",
+    "README.md",
+    "LICENSE"
+  ],
   "pre-commit": [
     "test"
   ]
