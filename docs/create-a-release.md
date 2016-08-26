@@ -16,3 +16,6 @@
  14. Paste the Changelog content for this release and add additional release notes.
  15. Choose the tag version and a title matching the release and publish.
  16. Notify core maintainers of the release via email.
+
+
+ [Releases]: https://github.com/senecajs/seneca-logstash-logger/releases
