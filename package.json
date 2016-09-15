@@ -13,7 +13,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "logstash-client": "1.1.0"
+    "logstash-client": "1.1.0",
+    "seneca-log-filter": "^0.1.0"
   },
   "engines": {
     "node": ">=4.x"
@@ -29,9 +30,9 @@
     "seneca": "plugin"
   },
   "files": [
-   "logstash.js",
-   "README.md",
-   "LICENSE"
+    "logstash.js",
+    "README.md",
+    "LICENSE"
   ],
   "pre-commit": [
     "test"
