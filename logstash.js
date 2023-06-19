@@ -2,13 +2,13 @@
 
 var Logstash = require('logstash-client')
 
-function Logger () {}
+function Logger() {}
 
-Logger.preload = function () {
+Logger.preload = function() {
   var options = this.options()
 
   var client = new Logstash(options['logstash-logger'])
-  function adapter (context, payload) {
+  function adapter(context, payload) {
     client.send(payload)
   }
 
