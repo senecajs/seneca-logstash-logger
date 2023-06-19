@@ -10,6 +10,11 @@
     "coverage": "lab -v -P test -L -t 93 -r html > docs/coverage.html",
     "annotate": "docco seneca.js logstash.js -o docs/annotated"
   },
+  "homepage": "https://github.com/senecajs/seneca-logstash-logger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senecajs/seneca-logstash-logger.git"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
