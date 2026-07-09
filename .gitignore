@@ -3,3 +3,4 @@ node_modules/**
 docs/annotated
 npm-debug.log
 docs/coverage.html
+package-lock.json

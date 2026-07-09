@@ -1,5 +1,5 @@
 {
-  "name": "seneca-logstash-logger",
+  "name": "@seneca/logstash-logger",
   "version": "1.0.0",
   "description": "",
   "main": "logstash.js",
@@ -34,9 +34,9 @@
     "seneca": "plugin"
   },
   "files": [
-   "logstash.js",
-   "README.md",
-   "LICENSE"
+    "logstash.js",
+    "README.md",
+    "LICENSE"
   ],
   "pre-commit": [
     "test"
